@@ -133,6 +133,7 @@ const Profile = props => {
           onPress={() => takeScreenShot()}
         />
       </View>
+      <Toast ref={ref => Toast.setRef(ref)} />
     </View>
   );
 };
